@@ -9,8 +9,9 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="Logo"
-        width={74} height={29}/>
+      <span className='font-bold text-2xl text-zinc-900'>
+            Trekk
+           </span>
       </Link>
         <ul className="hidden h-full gap-12 lg:flex ">
           {NAV_LINKS.map((link) => (
@@ -40,4 +41,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar      
